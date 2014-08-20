@@ -1,0 +1,1898 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 92,
+          "y": 73,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"Ubuntu, sans-serif\" color=\"#3a3a3a\"><b>Web audio API</b></font>",
+          "size": 120,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 106,
+          "y": 341,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<br>",
+          "size": 61,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/wsd.svg",
+          "type": "Image",
+          "x": 71,
+          "y": 577,
+          "scale": {
+            "width": 137.82561416184973,
+            "height": 103.3692106213873
+          },
+          "imageType": "SVG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 243,
+          "y": 603,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "WSD Москва 2013<br>",
+          "size": 80,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/dj1.png",
+          "type": "Image",
+          "x": 238,
+          "y": 247,
+          "scale": {
+            "x": 0.8416666666666666,
+            "y": 0.8416666666666666,
+            "width": 504.99999999999994,
+            "height": 336.66666666666663
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 146,
+      "y": 78,
+      "index": 0,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/o7IZmsT.png",
+          "type": "Image",
+          "x": 254,
+          "y": 316,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 375,
+          "y": 618,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#006d15\"><a href=\"http://twitter.com/html5by\">@html5by</a></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 205,
+          "y": 118,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 85,
+          "text": "Дмитрий Дудин<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": true,
+      "active": true,
+      "x": 141,
+      "y": 265
+    },
+    {
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/evolution.png",
+          "type": "Image",
+          "x": 43,
+          "y": 194,
+          "scale": {
+            "x": 1.4786729857819905,
+            "y": 1.4786729857819905,
+            "width": 936,
+            "height": 529.3649289099526
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 84,
+          "y": 41,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\"><b>Эволюция звука в WEB</b></font><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 139,
+      "y": 465
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 70,
+          "y": 43,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">WebAudioAPI&nbsp;</font>не<font color=\"#008be0\">&nbsp;</font><font color=\"#678f00\">&lt;audio&gt;</font></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/api-ws-tag.png",
+          "type": "Image",
+          "x": 287,
+          "y": 161,
+          "scale": {
+            "x": 1.08,
+            "y": 1.08,
+            "width": 432,
+            "height": 432
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 49,
+          "y": 110,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"font-size: 48px; text-align: center;\"><br></div>",
+          "size": 96,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 224,
+          "y": 609,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: left;\"><b>Web audio API&nbsp;</b>и &nbsp;<b>&lt;audio&gt;</b>&nbsp;</div><div style=\"text-align: left;\"><font color=\"#ff0000\">&nbsp; почти&nbsp;никак&nbsp;</font><span style=\"color: rgb(255, 0, 0);\">не связаны</span></div>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.02,
+      "rotateY": 0.14,
+      "rotateZ": 0.06,
+      "selected": false,
+      "active": false,
+      "x": 141,
+      "y": 677,
+      "index": 3,
+      "markdown": ""
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 237,
+          "y": 143,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\"><b>&lt;audio&gt;</b></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 291,
+          "y": 49,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\"><b>применение</b></font><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 121,
+          "y": 344,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Аудио плееры</span></li><li><span style=\"line-height: normal;\">Фоновая музыка</span></li><li><span style=\"line-height: normal;\">Аудио подсказки</span></li></ul>",
+          "size": 96,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.4,
+      "rotateY": -0.04,
+      "rotateZ": -0.01,
+      "selected": false,
+      "active": false,
+      "x": 149,
+      "y": 869,
+      "index": 4,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 131,
+          "y": 116,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">WEB AUDIO API</font></b>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 282,
+          "y": 16,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\"><b>применение</b></font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 206,
+          "y": 240,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">3D звук (игры)</span><br></li><li><span style=\"line-height: normal;\">Обработка звука</span></li><li><span style=\"line-height: normal;\">Синтез &nbsp;звука</span><br></li><li><span style=\"line-height: normal;\">Визуализация</span><br></li><li><span style=\"line-height: normal;\">Анализ звука</span></li></ul>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 407,
+          "y": 584,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<font color=\"#008be0\">. . .</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 175,
+      "y": 1075
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 47,
+          "y": 137,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Многоканальное аудио.<br>API поддерживает <br>до 32 каналов<br><br></span></li><li style=\"margin-bottom: 0.25em;\">Точная синхронизация <br>звуков во времени<br><br></li><li>Интеграция с webRTC, webGL</li></ul>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 352,
+          "y": -44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<font color=\"#008be0\">&nbsp;. . .</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.2,
+      "rotateY": 0.1,
+      "rotateZ": -0.01,
+      "selected": false,
+      "active": false,
+      "x": 204,
+      "y": 1284,
+      "index": 6
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 56,
+          "y": 335,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><a href=\"http://goo.gl/MSCvq\">goo.gl/MSCvq</a>&nbsp;- online band</div><div style=\"text-align: center;\"><font color=\"#cbb200\"><a href=\"http://goo.gl/NnTNXS\">goo.gl/NnTNXS</a></font>&nbsp;-&nbsp;<font color=\"#3a3a3a\">3D игры</font></div><div style=\"text-align: center;\"><span style=\"color: rgb(203, 178, 0);\"><a href=\"http://goo.gl/sM4me\"></a><a href=\"http://goo.gl/sM4me\">goo.gl/sM4me</a>&nbsp;</span><font color=\"#3a3a3a\">- анализ</font><br></div><div style=\"text-align: center;\"><span style=\"color: rgb(203, 178, 0);\"><a href=\"http://goo.gl/9ihlnh\">goo.gl/9ihlnh</a>&nbsp;</span>- обработка</div><div style=\"text-align: center;\"><span style=\"color: rgb(203, 178, 0);\"><a href=\"http://moveit.html5.by\">moveit.html5.by</a>&nbsp;</span>- визуализация</div>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 89,
+          "y": 70,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 85,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(103, 143, 0);\">А что с этой штукой&nbsp;</b></div><div style=\"text-align: center;\"><b style=\"color: rgb(103, 143, 0);\">можно делать?</b><br></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 133,
+      "y": 1478,
+      "markdown": ""
+    },
+    {
+      "num": 9,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 143,
+          "y": 345,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Проблемы</font></b>",
+          "size": 143,
+          "selected": false,
+          "rotate": -0.16
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/carrotdonkey.gif",
+          "type": "Image",
+          "x": 113,
+          "y": 117,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 422,
+      "y": 26,
+      "index": 8
+    },
+    {
+      "num": 10,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 45,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">Спецификация меняется</font><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 214,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: left;\"><div style=\"text-align: center;\">new <b>webkitAudioContext</b> -&gt; new&nbsp;<b>AudioContext</b>()&nbsp;</div><div style=\"text-align: center;\"><span style=\"line-height: 29px;\"><br></span></div><div style=\"text-align: center;\">&nbsp;AudioContext.<b>createDelayNode()</b> - &gt;&nbsp;AudioContext<b>.createDelay()</b></div><div style=\"text-align: center;\"><span style=\"line-height: 29px;\"><br></span></div><div style=\"text-align: center;\">AudioBufferSourceNode<b>.noteOn(0)</b> -&gt; AudioBufferSourceNode<b>.start()</b></div></div><div style=\"text-align: left;\"><br></div>",
+          "size": 29,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 189,
+          "y": 603,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#006ee0\">https://github.com/cwilso/<br>AudioContext-MonkeyPatch</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 344,
+          "y": 504,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Решение:",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.12,
+      "selected": false,
+      "active": false,
+      "x": 424,
+      "y": 216,
+      "index": 9
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 104,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Поддержка браузерами <br>декабрь 2013<br><br></font></b></div><div style=\"text-align: center;\"><b><font color=\"#678f00\">отлично</font></b></div><div style=\"text-align: center;\"><font color=\"#678f00\">Chrome, Safari, Opera,&nbsp;<br>Chrome android, Safari iOS<br><br></font></div><div style=\"text-align: center;\"><font color=\"#cbb200\"><b>почти</b></font></div><div style=\"text-align: center;\"><font color=\"#cbb200\">Firefox (desktop + mobile)</font>&nbsp;<font color=\"#678f00\"><br><br></font></div><div style=\"text-align: center;\"><font color=\"#8f0000\"><b>думают о поддержке в будущем</b></font></div><div style=\"text-align: center;\"><font color=\"#8f0000\">Internet explorer, blackberry и тп&nbsp;</font></div><div style=\"text-align: center;\"><br></div>",
+          "size": 50,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.04,
+      "rotateZ": -0.09,
+      "selected": false,
+      "active": false,
+      "x": 415,
+      "y": 433,
+      "index": 10
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/formats-browsers.png",
+          "type": "Image",
+          "x": 7,
+          "y": 202,
+          "scale": {
+            "x": 0.8844133099824868,
+            "y": 0.8844133099824868,
+            "width": 1009.9999999999999,
+            "height": 557.1803852889667
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 125,
+          "y": 21,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#008be0\"><b>Пока нет&nbsp;</b></font><b style=\"color: rgb(0, 139, 224);\">универсального</b></div><div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">&nbsp;аудио&nbsp;</b><b style=\"color: rgb(0, 139, 224);\">формата</b></div>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/problems1.png",
+          "type": "Image",
+          "x": 297,
+          "y": 297,
+          "scale": {
+            "x": 1.935,
+            "y": 1.935,
+            "width": 387,
+            "height": 477.945
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.1,
+      "rotateZ": -0.03,
+      "selected": false,
+      "active": false,
+      "x": 405,
+      "y": 630,
+      "index": 11
+    },
+    {
+      "num": 25,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 349,
+          "y": 15,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><div style=\"display: inline !important;\"><b><font color=\"#678f00\">sources</font></b></div></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 125,
+          "y": 277,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\"><b>AudioBufferSourceNode</b><br></span>&nbsp;- буффер<br><br></li><li><span style=\"line-height: normal;\"><b>MediaElementAudioSourceNode</b><br></span>&nbsp;- &lt;audio&gt;,&lt;video&gt;<br><br></li><li><span style=\"line-height: normal;\"><b>MediaStreamAudioSourceNode</b><br></span>&nbsp;- микрофон<br>&nbsp;- любой stream</li></ul>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 188,
+          "y": 95,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Источники звука&nbsp;</font></b></div><b><div style=\"text-align: center;\"><b><font color=\"#008be0\">для Web audio</font>&nbsp;</b></div></b>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.06,
+      "selected": false,
+      "active": false,
+      "x": 748,
+      "y": 110,
+      "index": 12
+    },
+    {
+      "num": 18,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 227,
+          "y": 178,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">Получатели звука</b></div><div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">в Web&nbsp;</b><b style=\"color: rgb(0, 139, 224);\"><div style=\"display: inline !important;\"><b>audio</b></div></b></div>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 75,
+          "y": 384,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal; font-family: Lato, sans-serif;\"><b>context.destination</b> <br>- системные динамики<br><br></span></li><li><span style=\"line-height: normal; font-family: Lato, sans-serif;\"><b>MediaStreamAudioDestinationNode</b></span><span style=\"line-height: normal; font-family: Lato, sans-serif;\"> <br>- stream &nbsp;(аналогичный getUserMedia)<br></span></li></ul><font><font face=\"Lato, sans-serif\"><br></font></font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 313,
+          "y": 40,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font color=\"#678f00\"><b>destinations</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.13,
+      "selected": false,
+      "active": false,
+      "x": 750,
+      "y": 330,
+      "index": 13
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 37,
+          "y": 22,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Audio context</font></b>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 37,
+          "y": 132,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#678f00\"><b>один на всю страницу</b></font></div>",
+          "size": 64,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 48,
+          "y": 222,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>и этого достаточно</b><br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 394,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ol><li><span style=\"line-height: normal;\">множество <br>входов&nbsp;<br></span><span style=\"line-height: normal;\">и выходов аудио<br><br></span></li><li><span style=\"line-height: normal;\">сложные аудио <br>графы</span></li></ol>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/graph.png",
+          "type": "Image",
+          "x": 411,
+          "y": 306,
+          "scale": {
+            "x": 1.0409982174688057,
+            "y": 1.0409982174688057,
+            "width": 584,
+            "height": 427.85026737967917
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.1,
+      "selected": false,
+      "active": false,
+      "x": 751,
+      "y": 524,
+      "index": 14
+    },
+    {
+      "num": 23,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 44,
+          "y": 52,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Все что нужно для&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">начала работы</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\"><br></font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\"><br></font></b></div><div style=\"text-align: center;\"><b><font color=\"#678f00\">1. Создаем аудиоконтекст</font></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/audio-context1.html",
+          "type": "WebFrame",
+          "x": 30,
+          "y": 505,
+          "scale": {
+            "x": 1.0427083333333333,
+            "y": 1.0427083333333333,
+            "width": 1001,
+            "height": 800.8
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.13,
+      "selected": false,
+      "active": false,
+      "x": 1065,
+      "y": 104,
+      "index": 15
+    },
+    {
+      "num": 24,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 24,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">2. Загружаем звук в буфер</b></div><div style=\"text-align: center;\"><br></div>",
+          "size": 68,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/from-buffer11.html",
+          "type": "WebFrame",
+          "x": 32,
+          "y": 251,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 129,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#678f00\">(например c XMLHttpRequest)</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.12,
+      "selected": false,
+      "active": false,
+      "x": 1052,
+      "y": 336,
+      "index": 16
+    },
+    {
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/from-buffer2.html",
+          "type": "WebFrame",
+          "x": 75,
+          "y": 96,
+          "scale": {
+            "x": 0.8802083333333334,
+            "y": 0.8802083333333334,
+            "width": 845,
+            "height": 676
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 69,
+          "y": 17,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<font color=\"#678f00\"><b>3. Соединяем и &nbsp;готово !</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.22,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 1050,
+      "y": 560
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 341.3333333333333,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/connect-nodes.html",
+          "type": "WebFrame",
+          "x": 68,
+          "y": 108,
+          "scale": {
+            "x": 0.9208333333333333,
+            "y": 0.9208333333333333,
+            "width": 884,
+            "height": 707.1999999999999
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 32,
+          "y": 20,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 61,
+          "text": "<b><font color=\"#008be0\">Строим схемы обработки звука</font></b><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.22,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 1042,
+      "y": 769
+    },
+    {
+      "num": 22,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 80,
+          "y": 22,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Web audio API&nbsp;</font></b><br><b><font color=\"#008be0\">содержит огромное количество</font></b><br></div><div style=\"text-align: center;\"><b>готовых к использованию</b><br><b>высокоуровневых</b><br><b>конфигурируемых</b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">блоков</font></b><br></div>",
+          "size": 51,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 484,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#656565\">&nbsp; &nbsp; &nbsp;... как LEGO</font></div><div style=\"text-align: center;\"><font color=\"#656565\"><br></font></div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><font color=\"#656565\">нужно только соединить все правильно</font></div>",
+          "size": 51,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/mixer.png",
+          "type": "Image",
+          "x": 715,
+          "y": 341,
+          "scale": {
+            "x": 0.9533333333333334,
+            "y": 0.9533333333333334,
+            "width": 286,
+            "height": 237.38
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/lego.png",
+          "type": "Image",
+          "x": 15,
+          "y": 344,
+          "scale": {
+            "x": 0.7180000000000001,
+            "y": 0.7180000000000001,
+            "width": 359.00000000000006,
+            "height": 211.81000000000003
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1360,
+      "y": 98,
+      "index": 19
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 124,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#008be0\"><b>Начнем с простого</b></font></div><div style=\"text-align: center;\"><b><font color=\"#678f00\">усилитель (gain)</font></b></div><div style=\"text-align: center;\"><b><font color=\"#678f00\">задержка (delay)</font><font color=\"#008be0\">&nbsp;</font></b></div>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 444,
+          "y": 650,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\">... и немного кода</font>",
+          "size": 64,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "x": 1354,
+      "y": 302
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/gain.html",
+          "type": "WebFrame",
+          "x": 25,
+          "y": 101,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false,
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.1,
+      "selected": false,
+      "active": false,
+      "x": 1348,
+      "y": 537,
+      "index": 21
+    },
+    {
+      "num": 17,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/crossfade.html",
+          "type": "WebFrame",
+          "x": 24,
+          "y": 14,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.06,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1341,
+      "y": 765,
+      "index": 22
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/delay.html",
+          "type": "WebFrame",
+          "x": 18,
+          "y": 153,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.04,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1331,
+      "y": 964,
+      "index": 23
+    },
+    {
+      "num": 11,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/delay-gain-echo.html",
+          "type": "WebFrame",
+          "x": 29,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1332,
+      "y": 1161,
+      "index": 24
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 285,
+          "y": 12,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Фильтры</font></b></div>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 220,
+          "y": 671,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">.... эквалайзер да и только</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/equalizer.png",
+          "type": "Image",
+          "x": 11,
+          "y": 168,
+          "scale": {
+            "x": 1.159,
+            "y": 1.159,
+            "width": 1159,
+            "height": 463.6
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.07,
+      "index": 25,
+      "selected": false,
+      "active": false,
+      "x": 1638,
+      "y": 3
+    },
+    {
+      "num": 12,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/biquard.html",
+          "type": "WebFrame",
+          "x": 35,
+          "y": 17,
+          "scale": {
+            "x": 0.9895742402198513,
+            "y": 0.9895742402198513,
+            "width": 1020.2510416666667,
+            "height": 816.3987481813773
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1622,
+      "y": 218,
+      "index": 26
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 259,
+          "y": 15,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">Свертка</b></div><font color=\"#008be0\"><div style=\"text-align: center;\"><b>Convolution</b></div></font>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 353,
+          "y": 258,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#656565\">пример: эхо</font>",
+          "size": 68,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/article-convolution.png",
+          "type": "Image",
+          "x": -7,
+          "y": 359,
+          "scale": {
+            "x": 1.4065040650406504,
+            "y": 1.4065040650406504,
+            "width": 1038,
+            "height": 382.5691056910569
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.1,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 27,
+      "selected": false,
+      "active": false,
+      "x": 1618,
+      "y": 426
+    },
+    {
+      "num": 19,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/convolution.html",
+          "type": "WebFrame",
+          "x": 35,
+          "y": 104,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1613,
+      "y": 633,
+      "index": 28
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 178,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 130,
+          "text": "<div style=\"text-align: center;\"><font color=\"#008be0\"><b>Генератор</b></font></div><div style=\"text-align: center;\"><font color=\"#008be0\">(oscilator)</font></div>",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/banana.png",
+          "type": "Image",
+          "x": 285,
+          "y": 421,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 29,
+      "selected": false,
+      "active": false,
+      "x": 1610,
+      "y": 857
+    },
+    {
+      "num": 13,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/oscilator.html",
+          "type": "WebFrame",
+          "x": 33,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1614,
+      "y": 1075,
+      "index": 30
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 360,
+          "y": 6,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 193,
+          "text": "<font color=\"#008be0\"><b>3D</b></font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/3d.jpg",
+          "type": "Image",
+          "x": 288,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 31,
+      "selected": false,
+      "active": false,
+      "x": 1921,
+      "y": 30
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 104,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font color=\"#678f00\">Типовая ситуация</font>",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/3dwebaudioapi.jpg",
+          "type": "Image",
+          "x": 114,
+          "y": 163,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 32,
+      "selected": false,
+      "active": false,
+      "x": 1919,
+      "y": 242
+    },
+    {
+      "num": 28,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 369,
+          "y": 20,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Panner</font></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 144,
+          "y": 334,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\">У каждого <br>паннера есть</font><br><ul><li><span style=\"line-height: normal;\">координаты&nbsp;</span><br></li><li><span style=\"line-height: normal;\">направление</span><br></li><li><span style=\"line-height: normal;\">скорость</span></li></ul><br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 529,
+          "y": 335,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\">У конечного <br>слушателя есть</font><br><ul><li><span style=\"line-height: normal;\">координаты&nbsp;</span><br></li><li><span style=\"line-height: normal;\">направления</span><br></li><li><span style=\"line-height: normal;\">скорость</span></li></ul><br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/panner.png",
+          "type": "Image",
+          "x": 192,
+          "y": 112,
+          "scale": {
+            "x": 0.9154078549848943,
+            "y": 0.9154078549848943,
+            "width": 606,
+            "height": 192.2356495468278
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 312,
+          "y": 641,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#008be0\"><a href=\"http://goo.gl/5afn3n\">goo.gl/5afn3n</a></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.14,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1918,
+      "y": 442,
+      "index": 33
+    },
+    {
+      "num": 23,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 48,
+          "y": 385,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><font color=\"#008be0\"><a href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AnalyserNode\">Analyser</a></font> - все данные о времени и частоте</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ChannelSplitterNode-section\">ChannelSplitterNode</a>&nbsp; - разделение каналов</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ChannelMergerNode-section\">ChannelMergerNode</a>&nbsp; - объединение каналов</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><a href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#DynamicsCompressorNode-section\">DynamicsCompressorNode</a>&nbsp; - динамический компрессор</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#dfn-WaveShaperNode\">WaveShaperNode</a>&nbsp; - нелинейные искажения</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\"><a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ScriptProcessorNode-section\">ScriptProcessorNode</a>&nbsp; - можно делать все что хотим</li></ul>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 73,
+          "y": 84,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#008be0\"><b>И многое&nbsp;</b></font></div><div style=\"text-align: center;\"><font color=\"#008be0\"><b>другое</b></font></div>",
+          "size": 77,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/fight.gif",
+          "type": "Image",
+          "x": 496,
+          "y": 62,
+          "scale": {
+            "x": 0.6640625,
+            "y": 0.6640625,
+            "width": 425,
+            "height": 237.734375
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.06,
+      "selected": false,
+      "active": false,
+      "x": 2250,
+      "y": 353,
+      "index": 34
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 95,
+          "y": 415,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\"><a href=\"http://goo.gl/szY7Ko\">goo.gl/szY7Ko</a>&nbsp;- web audio toy</span><br></li><li><span style=\"line-height: normal;\"><a href=\"http://goo.gl/LSJlXv\">goo.gl/LSJlXv</a>&nbsp; - web audio playground</span></li><li><a href=\"http://goo.gl/XuH0bh\">goo.gl/XuH0bh</a>&nbsp;- midi drum mashine<br></li><li><a href=\"http://goo.gl/UVbLMt\">goo.gl/UVbLMt</a>&nbsp;- piano</li><li><a href=\"http://goo.gl/5gm5PR\">goo.gl/5gm5PR</a>&nbsp;- rally<br></li><li><a href=\"http://www.soundstep.com/blog/experiments/jsdetection/\">goo.gl/YdFlWc</a>&nbsp;- xylophone<br></li><li><a href=\"http://chromium.googlecode.com/svn/trunk/samples/audio/\">goo.gl/qHY9p7</a>&nbsp;- и еще много разных демок<br></li></ul>",
+          "size": 42,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 651,
+          "y": 147,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\"><b>Демки</b></font><br>",
+          "size": 87,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/pop.gif",
+          "type": "Image",
+          "x": 99,
+          "y": 66,
+          "scale": {
+            "x": 1.49,
+            "y": 1.49,
+            "width": 447,
+            "height": 305.45
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.1,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 35,
+      "selected": false,
+      "active": false,
+      "x": 2284,
+      "y": 617
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 217,
+          "y": 584,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">Вопросы?</font></b>",
+          "size": 112,
+          "selected": false,
+          "rotate": 0
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/lama.gif",
+          "type": "Image",
+          "x": 52,
+          "y": 99,
+          "scale": {
+            "x": 1.1531250000000002,
+            "y": 1.1531250000000002,
+            "width": 369.00000000000006,
+            "height": 276.75000000000006
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/facebook.png",
+          "type": "Image",
+          "x": 444,
+          "y": 186,
+          "scale": {
+            "x": 2.2291666666666665,
+            "y": 2.2291666666666665,
+            "width": 107,
+            "height": 107
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/twitter.png",
+          "type": "Image",
+          "x": 527,
+          "y": 248,
+          "scale": {
+            "x": 1.9166666666666665,
+            "y": 1.9166666666666665,
+            "width": 92,
+            "height": 92
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/vkontakte.png",
+          "type": "Image",
+          "x": 538,
+          "y": 179,
+          "scale": {
+            "x": 1.6458333333333333,
+            "y": 1.6458333333333333,
+            "width": 79,
+            "height": 79
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 639,
+          "y": 208,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#008be0\"><b>@html5by</b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 94,
+          "y": 439,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 92,
+          "text": "<font color=\"#008be0\"><a href=\"http://html5.by/blog/audio\">html5.by/blog/audio</a></font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.75,
+      "index": 36,
+      "selected": false,
+      "active": false,
+      "x": 2578,
+      "y": 434
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "src": "http://i.imgur.com/o7IZmsT.png",
+        "type": "Image",
+        "x": 254,
+        "y": 316,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 375,
+        "y": 618,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 64,
+        "text": "<font color=\"#006d15\"><a href=\"http://twitter.com/html5by\">@html5by</a></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 205,
+        "y": 118,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 85,
+        "text": "Дмитрий Дудин<br>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 1,
+    "selected": true,
+    "active": true,
+    "x": 141,
+    "y": 265
+  },
+  "fileName": "web-audio-api-moscow-2013.strut",
+  "surface": "bg-surf-grad-light",
+  "customStylesheet": ".slideContainer a{\ncolor: rgba(0, 118, 163, 1);\n}\n\n.slideContainer *{\nfont-family: Arial !important;\n}",
+  "deckVersion": "1.0",
+  "cannedTransition": "carousel",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}

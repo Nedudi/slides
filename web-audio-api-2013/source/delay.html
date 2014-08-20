@@ -1,0 +1,98 @@
+<html>
+<head>
+    <script src="jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js" type="text/javascript"></script>
+
+
+
+    <link  href="rainbow/themes/github.css" rel="stylesheet" type="text/css"/>
+    <link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+    <link  href="css/main.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <style>
+
+    </style>
+  <script type="text/javascript">
+
+    $(function(){
+      var context = new window.AudioContext();
+      var buffer,source,destination;
+
+      window.stopButtonClick = function(index){
+        source.stop(0);
+      }
+
+      window.playButtonClick = function(index){
+
+        source = context.createBufferSource();
+        source.buffer = buffer;
+        destination = context.destination;
+
+        delayNode       = context.createDelayNode(10); // max possible delay in seconds
+        delayNode.delayTime.value  = $('.range1').val();
+
+        source.connect(delayNode);
+        delayNode.connect(destination);
+
+        source.start(0);
+      }
+
+      var initSound = function(arrayBuffer) {
+        context.decodeAudioData(arrayBuffer, function(decodedArrayBuffer) {
+          buffer = decodedArrayBuffer;
+          $('body').addClass('readytoplay');
+        }, function(e) {
+          console.log('Error decoding file', e);
+        });
+      }
+
+      var loadSoundFile = function(url) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'arraybuffer';
+        xhr.onload = function(e) {
+          initSound(this.response); // this.response is an ArrayBuffer.
+        };
+        xhr.send();
+      }
+
+      loadSoundFile('sound/papa_roach_last_resort.mp3');
+
+      $('.range1').on('change', function(e){
+        if(!delayNode) return;
+        delayNode.delayTime.value = $('.range1').val();
+      });
+    });
+
+  </script>
+  <h2>Delay node</h2>
+<pre data-language="javascript">
+var delayNode = context.createDelayNode(10); // max possible delay in seconds
+delayNode.delayTime.value = $('.range1').val();
+
+source.connect(delayNode);
+delayNode.connect(destination);
+</pre>
+
+  <div class="scheme" style="background-image:url(http://html5.by/blogdemo/webaudioapi/svg/source-delay-destination.svg)"></div>
+  <div class="legend">
+    <!-- <h3>Gain</h3> -->
+    <ul>
+      <li style="text-align:center"><label>Delay time</label><input style="width:300px" class="range1" type="range" name="points" step="1" min="1" max="10" value="3"></li>
+    </ul>
+  </div>
+
+  <button type="button" class="play  btn btn-primary">Play</button>
+  <button type="button" class="pause btn btn-success">Stop</button>
+
+  <script src="rainbow/rainbow.min.js" type="text/javascript"></script>
+  <script src="rainbow/language/generic.js" type="text/javascript"></script>
+  <script src="rainbow/language/javascript.js" type="text/javascript"></script>
+</body>
+</html>

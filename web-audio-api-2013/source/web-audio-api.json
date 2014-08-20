@@ -1,0 +1,1713 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 59,
+          "y": 72,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"Ubuntu, sans-serif\" color=\"#656565\"><b>Web audio API</b></font>",
+          "size": 131,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/webnotbombs.png",
+          "type": "Image",
+          "x": 521,
+          "y": 598,
+          "scale": {
+            "x": 0.8731182795698925,
+            "y": 0.8731182795698925,
+            "width": 406,
+            "height": 125.72903225806452
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 645,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#656565\">by Dmitry Dudin for</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/dj1.png",
+          "type": "Image",
+          "x": 208,
+          "y": 228,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 4,
+      "y": 4,
+      "index": 0,
+      "markdown": ""
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 142,
+          "y": 19,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#678f00\">&lt;audio&gt;</font><font color=\"#008be0\"> is mainstream</font></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/api-ws-tag.png",
+          "type": "Image",
+          "x": 391,
+          "y": 229,
+          "scale": {
+            "x": 1.2675,
+            "y": 1.2675,
+            "width": 507,
+            "height": 507
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 49,
+          "y": 110,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"font-size: 48px; text-align: center;\"><br></div>",
+          "size": 96,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 139,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: left;\">Web audio API&nbsp;</div><div style=\"text-align: left;\">is not about&nbsp;</div><div style=\"text-align: left;\"><b>&lt;audio&gt;</b>&nbsp;</div><div style=\"text-align: left;\">element</div>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.02,
+      "rotateY": 0.14,
+      "rotateZ": 0.06,
+      "selected": false,
+      "active": false,
+      "x": -2,
+      "y": 200,
+      "index": 1
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 222,
+          "y": 7,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\"><b>&lt;audio&gt;</b></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 618,
+          "y": 149,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">usecases</font></b><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 122,
+          "y": 233,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Audio players</span></li><li><span style=\"line-height: normal;\">Background music</span></li><li><span style=\"line-height: normal;\">Audio tips</span></li><li><span style=\"line-height: normal;\">..etc</span></li></ul>",
+          "size": 96,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.4,
+      "rotateY": -0.04,
+      "rotateZ": -0.01,
+      "selected": false,
+      "active": false,
+      "x": -3,
+      "y": 395,
+      "index": 2
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 77,
+          "y": 47,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">WEB AUDIO API</font></b>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 670,
+          "y": 141,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\">usecases</font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 116,
+          "y": 292,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">3D reach game sound</span><br></li><li><span style=\"line-height: normal;\">Sound processing apps</span><br></li><li><span style=\"line-height: normal;\">Sound syntesis</span><br></li><li><span style=\"line-height: normal;\">Sound visualisation</span><br></li></ul>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 510,
+      "y": 80
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 201,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Web audio API&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">advantages</font></b></div>",
+          "size": 124,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 670,
+      "y": 80
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 62,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">REACH API</span></li><li style=\"margin-bottom: 0.25em;\">scheduling events to happen <br>at exact times during audio <br>playbacks</li><li><span style=\"line-height: normal;\">processing possibility with tons <br>of ready to use modules&nbsp;</span><span style=\"line-height: normal;\">(filters, <br>gain, delay, channel split, ...)</span></li><li style=\"margin-bottom: 0.25em;\">sound synthesis to create <br>electronic music<br></li></ul>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 464,
+          "y": 598,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...",
+          "size": 132,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.2,
+      "rotateY": 0.1,
+      "rotateZ": -0.01,
+      "selected": false,
+      "active": false,
+      "x": -4,
+      "y": 584,
+      "index": 5
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 79,
+          "y": 115,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul style=\"\"><li><span style=\"line-height: normal;\">3D positional audio</span></li><li><span style=\"line-height: normal;\">channels (up to 32)</span></li><li><span style=\"line-height: normal;\">direct access to audio data <br>(visualisation possibility)</span></li><li style=\"margin-bottom: 0.25em;\">Integration for WebRTC to <br>apply effects to sound like<br>WebRTC call, a guitar plugged <br>in to your device, etc</li></ul>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 447,
+          "y": -39,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...",
+          "size": 121,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 990,
+      "y": 240
+    },
+    {
+      "num": 9,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 311,
+          "y": 190,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Problems</font></b>",
+          "size": 143,
+          "selected": false,
+          "rotate": -0.16
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/carrotdonkey.gif",
+          "type": "Image",
+          "x": 68,
+          "y": 26,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 177,
+          "y": 436,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\">Draft changes</span></li><li><span style=\"line-height: normal;\">Browser support</span><br></li><li><span style=\"line-height: normal;\">Audio data formats</span></li></ul>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 280,
+      "y": 4,
+      "index": 7
+    },
+    {
+      "num": 10,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 45,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">current spec</font> <b><font color=\"#008be0\">vs</font></b> <font color=\"#678f00\">older spec</font><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 214,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: left;\"><div style=\"text-align: center;\">new <b>webkitAudioContext</b> -&gt; new&nbsp;<b>AudioContext</b>()&nbsp;</div><div style=\"text-align: center;\"><span style=\"line-height: 29px;\"><br></span></div><div style=\"text-align: center;\">&nbsp;AudioContext.<b>createDelayNode()</b> - &gt;&nbsp;AudioContext<b>.createDelay()</b></div><div style=\"text-align: center;\"><span style=\"line-height: 29px;\"><br></span></div><div style=\"text-align: center;\">AudioBufferSourceNode<b>.noteOn(0)</b> -&gt; AudioBufferSourceNode<b>.start()</b></div></div><div style=\"text-align: left;\"><br></div>",
+          "size": 29,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 189,
+          "y": 603,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#006ee0\">https://github.com/cwilso/<br>AudioContext-MonkeyPatch</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 344,
+          "y": 504,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Solution:",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 279,
+      "y": 204,
+      "index": 8
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/web-audio-api-browser-support.png",
+          "type": "Image",
+          "x": 11,
+          "y": 391,
+          "scale": {
+            "x": 1.072883172561629,
+            "y": 1.072883172561629,
+            "width": 1000.9999999999999,
+            "height": 356.1972132904608
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 129,
+          "y": 24,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Browser support September 2013</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\"><br></font></b></div><div style=\"text-align: center;\">Chrome, Safari, Opera,&nbsp;<br>Chrome android, Safari iOS - <font color=\"#678f00\">perfect</font></div><div style=\"text-align: center;\">FF - <font color=\"#678f00\">perfect soon</font></div><div style=\"text-align: center;\">Ie, blackberry and others - <font color=\"#678f00\">future</font></div>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.04,
+      "rotateZ": -0.01,
+      "selected": false,
+      "active": false,
+      "x": 283,
+      "y": 405,
+      "index": 9
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 37,
+          "y": 56,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div><font color=\"#008be0\">Currently Firefox supports an alternative,&nbsp;</font></div><div><font color=\"#008be0\">deprecated audio API, with support for the&nbsp;</font></div><div><font color=\"#008be0\">Web Audio API being planned.</font></div><div><br></div><div><b>Firefox (Jul 2013):</b> <br>\"We are currently hoping to release</div><div>Web Audio support in Firefox 24 for desktop</div><div>and Android, unless something unexpected</div><div>happens that would cause us to delay <br>the release, but you can use most parts of the&nbsp;</div><div>API on Nightly and Aurora right now.\"</div>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 1630,
+      "y": 240
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/formats-browsers.png",
+          "type": "Image",
+          "x": 7,
+          "y": 202,
+          "scale": {
+            "x": 0.8844133099824868,
+            "y": 0.8844133099824868,
+            "width": 1009.9999999999999,
+            "height": 557.1803852889667
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 65,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">There is </font><font color=\"#678f00\">NO</font><font color=\"#008be0\"> universal&nbsp;</font></b></div><div style=\"text-align: center;\"><font color=\"#008be0\"><b>audio format</b></font></div>",
+          "size": 64,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/problems1.png",
+          "type": "Image",
+          "x": 746,
+          "y": 11,
+          "scale": {
+            "x": 0.77,
+            "y": 0.77,
+            "width": 154,
+            "height": 190.19
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.1,
+      "rotateZ": -0.03,
+      "selected": false,
+      "active": false,
+      "x": 274,
+      "y": 601,
+      "index": 11
+    },
+    {
+      "num": 25,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 201,
+          "y": 54,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Web audio&nbsp;</font></b><b><div style=\"display: inline !important;\"><b><font color=\"#678f00\">sources:</font></b></div></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 125,
+          "y": 191,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\"><b>AudioBufferSourceNode</b><br></span>&nbsp;- buffer<br><br></li><li><span style=\"line-height: normal;\"><b>MediaElementAudioSourceNode</b><br></span>&nbsp;- &lt;audio&gt;<br>&nbsp;- &lt;video&gt;<br><br></li><li><span style=\"line-height: normal;\"><b>MediaStreamAudioSourceNode</b><br></span>&nbsp;- microphone<br>&nbsp;- any other stream</li></ul>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.06,
+      "selected": false,
+      "active": false,
+      "x": 557,
+      "y": 1,
+      "index": 12
+    },
+    {
+      "num": 18,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 140,
+          "y": 43,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(0, 139, 224);\">Web&nbsp;</b><b style=\"color: rgb(0, 139, 224);\"><div style=\"display: inline !important;\"><b>audio&nbsp;</b></div></b><b><div style=\"display: inline !important;\"><b><div style=\"display: inline !important;\"><b><font color=\"#678f00\">destinations:</font></b></div></b></div></b></div>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 55,
+          "y": 146,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><b style=\"line-height: normal; font-family: Lato, sans-serif;\">context.destination <br>- system speakers&nbsp;<br><br></b></li><li><span style=\"line-height: normal; font-family: Lato, sans-serif;\"><b>MediaStreamAudioDestinationNode</b></span><span style=\"line-height: normal; font-family: Lato, sans-serif;\"> <br><b>- stream </b><br>\"This stream can be used in a similar way <br>as a MediaStream obtained <br>via getUserMedia(), and can, for example,&nbsp;<br></span><span style=\"font-family: Lato, sans-serif; line-height: normal;\">be sent to a remote&nbsp;</span><span style=\"font-family: Lato, sans-serif; line-height: normal;\">peer using the <br>RTCPeerConnection addStream() method.\"</span></li></ul><font><font face=\"Lato, sans-serif\"><br></font></font>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.13,
+      "selected": false,
+      "active": false,
+      "x": 558,
+      "y": 214,
+      "index": 13
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 195,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Audio context</font></b>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 137,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#678f00\">There is only one audio&nbsp;</font></b></div><b><div style=\"text-align: center;\"><b><font color=\"#678f00\">context per page</font></b></div></b>",
+          "size": 64,
+          "selected": false,
+          "skewX": 0
+        },
+        {
+          "TextBox": {},
+          "x": 53,
+          "y": 312,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>BUT it can support:</b>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 65,
+          "y": 400,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ol><li><span style=\"line-height: normal;\">multiple sound <br>inputs (outputs)<br><br></span></li><li><span style=\"line-height: normal;\">complex <br>audio graphs</span><span style=\"line-height: normal;\"><br></span></li></ol>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 54,
+          "y": 655,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"font-size: 36px;\"><font color=\"#008be0\">most of web audio API functionality -&nbsp;methods of context</font></span><br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/graph.png",
+          "type": "Image",
+          "x": 496,
+          "y": 312,
+          "scale": {
+            "x": 0.8431372549019609,
+            "y": 0.8431372549019609,
+            "width": 473.00000000000006,
+            "height": 346.5294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.1,
+      "selected": false,
+      "active": false,
+      "x": 561,
+      "y": 416,
+      "index": 14
+    },
+    {
+      "num": 23,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/audio-context.html",
+          "type": "WebFrame",
+          "x": 27,
+          "y": 119,
+          "scale": {
+            "x": 1.0208333333333333,
+            "y": 1.0208333333333333,
+            "width": 1000.4166666666666,
+            "height": 800.3333333333333
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 151,
+          "y": 16,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#678f00\">let's check some code&nbsp;</font></b><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.13,
+      "selected": false,
+      "active": false,
+      "x": 852,
+      "y": 5,
+      "index": 15
+    },
+    {
+      "num": 24,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/from-buffer1.html",
+          "type": "WebFrame",
+          "x": 24,
+          "y": 25,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 762,
+          "y": 86,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">load</div><div style=\"text-align: center;\">audio&nbsp;</div><div style=\"text-align: center;\">data</div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\">with&nbsp;</div><div style=\"text-align: center;\">XHR</div>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.12,
+      "selected": true,
+      "active": true,
+      "x": 844,
+      "y": 209,
+      "index": 16
+    },
+    {
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/from-buffer2.html",
+          "type": "WebFrame",
+          "x": 14,
+          "y": 22,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 2750,
+      "y": 400
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 310,
+          "y": 120,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Complex&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">sound&nbsp;</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">graphs</font></b></div>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 371,
+          "y": 659,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">...build them just easy</font>",
+          "size": 64,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 843,
+      "y": 408
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 341.3333333333333,
+          "y": 256,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/connect-nodes.html",
+          "type": "WebFrame",
+          "x": 27,
+          "y": 145,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "x": 843,
+      "y": 621
+    },
+    {
+      "num": 22,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 164,
+          "y": 41,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Web audio API&nbsp;</font></b><b><font color=\"#008be0\">contains huge ammount&nbsp;</font></b><b><font color=\"#008be0\">of</font></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\"><br></font></b></div><div style=\"text-align: center;\"><b>&nbsp; &nbsp; &nbsp;- ready to use</b></div><div style=\"text-align: center;\"><b>- high level&nbsp;</b><br><b>&nbsp; &nbsp; &nbsp; - configurable</b><br></div><div style=\"text-align: center;\"><b><br></b></div><div style=\"text-align: center;\"><b><font color=\"#008be0\">&nbsp; &nbsp; building blocks</font></b></div>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 300,
+          "y": 462,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#656565\">... like LEGO &gt;</font></div><div style=\"text-align: center;\"><font color=\"#656565\"><br></font></div><div style=\"text-align: center;\"><font color=\"#656565\"><br></font></div><div style=\"text-align: center;\"><font color=\"#656565\"><br></font></div><div style=\"text-align: center;\"><font color=\"#656565\">everything from the box,&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#656565\">just connect on the right way</font></div>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/mixer.png",
+          "type": "Image",
+          "x": 680,
+          "y": 381,
+          "scale": {
+            "x": 0.9533333333333334,
+            "y": 0.9533333333333334,
+            "width": 286,
+            "height": 237.38
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/lego.png",
+          "type": "Image",
+          "x": 46,
+          "y": 380,
+          "scale": {
+            "x": 0.7180000000000001,
+            "y": 0.7180000000000001,
+            "width": 359.00000000000006,
+            "height": 211.81000000000003
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1154,
+      "y": 15,
+      "index": 20
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 246,
+          "y": 213,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Basic nodes</font></b></div><div style=\"text-align: center;\"><b><font color=\"#678f00\">(gain, delay)</font><font color=\"#008be0\">&nbsp;</font></b></div>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 299,
+          "y": 621,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\">... and basic code samples</font>",
+          "size": 64,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "x": 1154,
+      "y": 219
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/gain.html",
+          "type": "WebFrame",
+          "x": 30,
+          "y": 190,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false,
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1151,
+      "y": 422,
+      "index": 22
+    },
+    {
+      "num": 17,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/crossfade.html",
+          "type": "WebFrame",
+          "x": 25,
+          "y": 9,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1149,
+      "y": 632,
+      "index": 23
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/delay.html",
+          "type": "WebFrame",
+          "x": 24,
+          "y": 200,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1144,
+      "y": 837,
+      "index": 24
+    },
+    {
+      "num": 11,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/delay-gain-echo.html",
+          "type": "WebFrame",
+          "x": 26,
+          "y": -1,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1141,
+      "y": 1041,
+      "index": 25
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 315,
+          "y": 37,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><b><font color=\"#008be0\">Filters</font></b></div>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 140,
+          "y": 686,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">.... a bit more complex stuff to understand</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/equalizer.png",
+          "type": "Image",
+          "x": 276,
+          "y": 277,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 26,
+      "selected": false,
+      "active": false,
+      "x": 1434,
+      "y": 18
+    },
+    {
+      "num": 12,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/biquard.html",
+          "type": "WebFrame",
+          "x": -6,
+          "y": 8,
+          "scale": {
+            "x": 1.0739583333333333,
+            "y": 1.0739583333333333,
+            "width": 1031,
+            "height": 824.8
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1434,
+      "y": 221,
+      "index": 27
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 93,
+          "y": 110,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#008be0\"><b>Convolutions</b></font><br>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/img/convolution.png",
+          "type": "Image",
+          "x": 166,
+          "y": 423,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 206,
+          "y": 606,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">intput</font><br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 464,
+          "y": 599,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(0, 139, 224);\">impulse&nbsp;</span></div><font color=\"#008be0\"><div style=\"text-align: center;\">response</div></font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 733,
+          "y": 612,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#678f00\">output</font>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 380,
+          "y": 460,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "+",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 676,
+          "y": 462,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "=",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 368,
+          "y": 370,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#656565\">Example: single echo</font>",
+          "size": 36,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 28,
+      "selected": false,
+      "active": false,
+      "x": 1725,
+      "y": 17
+    },
+    {
+      "num": 19,
+      "components": [
+        {
+          "src": "http://html5.by/blogdemo/webaudioapi/convolution.html",
+          "type": "WebFrame",
+          "x": 38,
+          "y": 152,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1726,
+      "y": 217,
+      "index": 29
+    },
+    {
+      "num": 13,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 242,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">OscillatorNode<br></font></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 427,
+          "y": 138,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fe0000\">todo !!!</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1985,
+      "y": 23,
+      "index": 30
+    },
+    {
+      "num": 15,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 34,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">AnalyserNode</font></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 429,
+          "y": 151,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fe0000\">todo!!!</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1987,
+      "y": 217,
+      "index": 31
+    },
+    {
+      "num": 28,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 666,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li><span style=\"line-height: normal;\"><a href=\"http://www.html5rocks.com/en/tutorials/webaudio/positional_audio/position.html\">http://www.html5rocks.com/en/tutorials/webaudio/positional_audio/position.html</a></span></li><li><span style=\"line-height: normal;\"><a href=\"http://webaudio-io2012.appspot.com/frames/velocity.html\">http://webaudio-io2012.appspot.com/frames/velocity.html</a></span></li></ul>",
+          "size": 24,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 284,
+          "y": 24,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">Panner node</font></b>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 103,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>Panner node <br>defines</b>&nbsp;<br><ul><li><span style=\"line-height: normal;\">position,&nbsp;</span><br></li><li><span style=\"line-height: normal;\">orientation</span><br></li><li><span style=\"line-height: normal;\">velocity&nbsp;</span><br></li></ul><font color=\"#678f00\"><b>of a sound.</b> </font><br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 485,
+          "y": 271,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><span style=\"font-size: 36px;\">context has a&nbsp;</span><span style=\"font-size: 36px;\">listener attribute&nbsp;</span><br style=\"font-size: 36px;\"></b><span style=\"font-size: 36px;\"><b>that defines</b>&nbsp;</span><br style=\"font-size: 36px;\"><ul style=\"font-size: 36px;\"><li><span style=\"line-height: normal;\">position</span><br></li><li><span style=\"line-height: normal;\">orientation</span><br></li><li><span style=\"line-height: normal;\">velocity&nbsp;</span><br></li></ul><b style=\"font-size: 36px;\"><font color=\"#678f00\">of the listener.&nbsp;</font></b><br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 53,
+          "y": 552,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"font-size: 36px;\">With these two things you can create directional sounds&nbsp;</span><br style=\"font-size: 36px;\"><span style=\"font-size: 36px;\">with doppler effects and 3D panning.</span><br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 10,
+          "y": 128,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fe0000\">todo: try to describe more &nbsp;clear</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 2240,
+      "y": 21,
+      "index": 32
+    },
+    {
+      "num": 23,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 85,
+          "y": 243,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\">A&nbsp;<a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ChannelSplitterNode-section\" style=\"color: rgb(102, 0, 153); background-color: transparent; background-position: initial initial; background-repeat: initial initial;\">ChannelSplitterNode</a>&nbsp;interface, for accessing the individual <br>channels of an audio stream in the routing graph.</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\">A&nbsp;<a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ChannelMergerNode-section\" style=\"color: rgb(102, 0, 153); background-color: transparent; background-position: initial initial; background-repeat: initial initial;\">ChannelMergerNode</a>&nbsp;interface, for combining channels <br>from multiple audio streams into a single audio stream.</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\">A&nbsp;<a href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#DynamicsCompressorNode-section\" style=\"color: rgb(102, 0, 153); background-color: transparent; background-position: initial initial; background-repeat: initial initial;\">DynamicsCompressorNode</a>&nbsp;interface, <br>an AudioNode for dynamics compression.</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\">A&nbsp;<a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#dfn-WaveShaperNode\" style=\"color: rgb(102, 0, 153); background-color: transparent; background-position: initial initial; background-repeat: initial initial;\">WaveShaperNode</a>&nbsp;interface, an AudioNode <br>which applies a non-linear waveshaping effect <br>for distortion and other more subtle warming effects.</li><li style=\"margin-top: 0.5em; margin-bottom: 0.5em; list-style-type: disc;\">A&nbsp;<a class=\"dfnref\" href=\"https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#ScriptProcessorNode-section\" style=\"color: rgb(102, 0, 153); background-color: transparent; background-position: initial initial; background-repeat: initial initial;\">ScriptProcessorNode</a>&nbsp;interface, an AudioNode <br>for generating or processing audio directly in JavaScript.</li></ul>",
+          "size": 29,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 307,
+          "y": 86,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><font color=\"#008be0\">What else:</font></b><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 2486,
+      "y": 19,
+      "index": 33
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 139,
+          "y": 290,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fe0000\">todo : add all demos here</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 34,
+      "selected": false,
+      "active": false,
+      "x": 2486,
+      "y": 208
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 96,
+          "y": 322,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fe0000\">todo: add contacts info here&nbsp;</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 35,
+      "selected": false,
+      "active": false,
+      "x": 2487,
+      "y": 392
+    }
+  ],
+  "background": "defaultbg",
+  "activeSlide": {
+    "num": 24,
+    "components": [
+      {
+        "src": "http://html5.by/blogdemo/webaudioapi/from-buffer1.html",
+        "type": "WebFrame",
+        "x": 24,
+        "y": 25,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 762,
+        "y": 86,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\">load</div><div style=\"text-align: center;\">audio&nbsp;</div><div style=\"text-align: center;\">data</div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\">with&nbsp;</div><div style=\"text-align: center;\">XHR</div>",
+        "size": 72,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": -0.12,
+    "selected": true,
+    "active": true,
+    "x": 844,
+    "y": 209,
+    "index": 16
+  },
+  "fileName": "web-audio-api",
+  "customStylesheet": ".blue{\n  color:#00a2ff;\n}",
+  "overviewX": 1241.5,
+  "overviewY": 521
+}
