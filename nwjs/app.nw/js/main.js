@@ -3,6 +3,7 @@ var gui = require('nw.gui');
 var fs = require('fs');
 var path = '/usr/local/var/log/nginx/error.log';
 fs.watchFile(path, function(a){
+  console.log(fs.readFileSync(path, {encoding:'utf8'}));
   document.getElementById('log').innerHTML = fs.readFileSync(path, {encoding:'utf8'});
 });
 
@@ -41,7 +42,7 @@ var menubar = new gui.Menu({ type: 'menubar', title: 'Menu Title' });
 
 // Под-меню
 menubar.append(new gui.MenuItem({ label: 'Главное', submenu: getDummyMenu()}));
-menubar.append(new gui.MenuItem({ label: 'Опции',   submenu: getDummyMenu()}));
+//menubar.append(new gui.MenuItem({ label: 'Опции',   submenu: getDummyMenu()}));
 menubar.append(new gui.MenuItem({ label: 'О нас',   submenu: getDummyMenu()}));
 
 //Получит текущее окно и подключить к нему верхнее меню

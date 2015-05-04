@@ -8,15 +8,14 @@
     "title": "Dummy demo",
     "icon": "icon.png",
     "toolbar": false,
-    "frame": false,
+    "frame": true,
     "width": 400,
     "height": 400,
     "position": "mouse",
     "min_width": 200,
     "min_height": 100,
     "max_width": 1000,
-    "max_height": 600,
-    "transparent": true
+    "max_height": 600
   },
   "author": "nedudi",
   "license": "MIT",
