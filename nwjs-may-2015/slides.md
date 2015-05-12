@@ -1,5 +1,5 @@
 
-## Дестопные приложения 
+## Десктопные приложения 
 ## на веб-технологиях
 
 
@@ -24,7 +24,7 @@
  - Распространять и рекламировать приложение через магазины приложений. {next}
  - Делать скриншоты. {next}
  - Пользоваться нотифиацией. {next}
- - Делать кроссдоменные запросы, менять UserAgent {next}
+ - Делать кроссдоменные запросы, менять UserAgent, загружать Google во фрейме {next}
  - Полноценный полноэкранный режим (kiosk-mode) {next}
  - И просто, но важно... Запускалось нажатием на иконку! {next}
 
@@ -42,6 +42,7 @@
 
 ## Есть какие-то решения ...
 
+  - [Adobe flash](http://www.adobe.com/products/flash.html)
   - [Chrome apps](https://www.google.com/chrome/webstore/apps-games.html)
   - [Tide SDK (ex. Titanium Desktop)](http://www.tidesdk.org)
   - [App.js](http://appjs.com)
@@ -82,7 +83,7 @@
 ---
 
 ## Node? WebKit?
-
+ 
 1. В апреле 2013-го Chromium, а вместе с ним и проект node-webkit  [переехал  на новый движок Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html) (форк Webkit-а) {next}
 2. С января 2015-го проект [начал использовать io.js](https://groups.google.com/forum/#!msg/nwjs-general/V1FhvfaFIzQ/720xKVd0jNkJ)  вместо node.js. {next}
 
@@ -110,7 +111,7 @@
 ![](http://localhost:2233/iojs-and-chromium-logo.png =800x) {cover}
 
 ---
-## Почему V8 называется V8{center}
+## Почему V8 называется V8?{center}
 
 ![](http://localhost:2233/v8.gif =500x) {center next}
 
@@ -150,7 +151,14 @@
 
 ## Как они это сделали? {center}
 
-![](http://localhost:2233/alive.gif =400x) {center}
+![](http://localhost:2233/alive.gif =500x) {center}
+
+---
+
+## Как они это сделали? {center}
+
+1. Main Loop Integration
+2. Context bridging
 
 [Здесь можно почитать подрбнее](https://github.com/nwjs/nw.js/wiki/How-node.js-is-integrated-with-chromium) {center}
 
@@ -338,13 +346,21 @@ tray.menu = menu;
 
 ---
 
-## Дебаггинг  {shout grow}
-
-You can use the --remote-debugging-port=port command parameter to specify which port the devtools should listen to. For example, by running nw --remote-debugging-port=9222, you can open http://localhost:9222/ to visit the debugger remotely.
+## Дебаггинг {shout grow}
 
 ---
 
-## Livereload nw.js on changes  {shout grow}
+![](http://localhost:2233/nwjs-window-debugger.png =600x) {center}
+
+## или  {center}
+
+              nw --remote-debugging-port=1234 app
+                          
+http://localhost:1234 {center}
+
+---
+
+## [Livereload nw.js](https://github.com/nwjs/nw.js/wiki/Livereload-nw.js-on-changes)   {shout grow}
 
 ----
 
@@ -376,14 +392,6 @@ You can use the --remote-debugging-port=port command parameter to specify which 
 ---
 
 ![](http://localhost:2233/ubuntu-nwjs.png =500x) {center}
-
----
-
-## Express? {shout grow}
-
------
-
-## fake frame
 
 ---
 
@@ -419,6 +427,8 @@ You can use the --remote-debugging-port=port command parameter to specify which 
 
 ---
 
+## ... и еще очень много приложений {center}
+## [здесь](https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-nw.js) {shout}
 
 
 ---
@@ -431,7 +441,11 @@ You can use the --remote-debugging-port=port command parameter to specify which 
 
 ----
 
+## Express? {shout grow}
 
+-----
+
+## fake frame
 
 
 ## Almost all GFM syntax
