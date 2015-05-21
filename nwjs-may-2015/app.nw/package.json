@@ -10,7 +10,7 @@
   "window": {
     "title": "Dummy demo",
     "icon": "icon.png",
-    "toolbar": true,
+    "toolbar": false,
     "frame": true,
     "width": 400,
     "height": 400,

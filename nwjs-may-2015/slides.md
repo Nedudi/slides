@@ -5,14 +5,24 @@
 
 **by [@nedudi](http://twitter.com/nedudi) [@html5by](http://twitter.com/html5by)**
 
-![](http://localhost:2233/cover.png  =800x) {cover}
+![](http://localhost:2233/shower/cover.png  =800x) {cover}
+
+---
+
+![](http://localhost:2233/shower/logo-xbsoftware.png  =280x) {center}
+
+<br>
+![](http://localhost:2233/shower/logo-webix.png  =280x) {center next}
+
+<br>
+![](http://localhost:2233/shower/html5by.png  =240x) {center next}
 
 ---
 
 ## Почему браузера может быть мало?
 
- - Я хочу, что-бы веб-приложение имело доступ к файловой системе, системным процессам, буфферу обмена, сочетаниям клавиш и др. {next}
- - Работало в фоне, могло запускаться при старте системы и оффлайн. {next}
+ - Я хочу, чтобы веб-приложение имело доступ к файловой системе, системным процессам, буферу обмена, сочетаниям клавиш и др. {next}
+ - Работало в фоне, могло запускаться при старте системы и офлайн. {next}
  - Не спрашивало доступ к камере и микрофону. {next}
  - Я хочу использовать в приложении Web Gl, Web Audio, Web RTC и другие ништячки и быть уверенным, что все работает одинаково и везде. {next}
   - Могло создавать системные меню, окна, иконки в трее, управлять ими. {next}
@@ -21,28 +31,26 @@
 
  ## Почему браузера может быть мало?
 
- - Распространять и рекламировать приложение через магазины приложений. {next}
  - Делать скриншоты. {next}
  - Пользоваться нотифиацией. {next}
  - Делать кроссдоменные запросы, менять UserAgent, загружать Google во фрейме {next}
  - Полноценный полноэкранный режим (kiosk-mode) {next}
+ - Распространять и рекламировать приложение через магазины приложений. {next}
  - И просто, но важно... Запускалось нажатием на иконку! {next}
 
 ---
 
-## Почему веб-технологии </br> для десктопных приложений?
+## Возможно ли все это<br>в десктопных приложениях,<br>написанных используя<br>веб-технологии?  {cover center}
 
-1) Легкая кроссплатформенность (Mac, Linux, Windows, ...). {next}
-2) Работает достаточно быстро. {next}
-3) Нарастающий тренд ;) {next}
-4) Дешево во всех отношениях! {next}
+---
 
+![](http://localhost:2233/shower/awesome.gif =1280x) {cover}
 
 ---
 
 ## Есть какие-то решения ...
 
-  - [Adobe flash](http://www.adobe.com/products/flash.html)
+  - [Adobe Flash](http://www.adobe.com/products/flash.html)
   - [Chrome apps](https://www.google.com/chrome/webstore/apps-games.html)
   - [Tide SDK (ex. Titanium Desktop)](http://www.tidesdk.org)
   - [App.js](http://appjs.com)
@@ -52,22 +60,38 @@
 
 ---
 
-![](http://localhost:2233/yaw.gif =660x) {cover}
+![](http://localhost:2233/shower/yaw.gif =1050x) {cover}
 
 ----
 
-## Есть достойные решения!
-
-  - [Electron (Atom Shell)](http://electron.atom.io)
-  - [NW.js (Node-WebKit)](http://nwjs.io)
+## Есть<br>достойные<br>решения! {shout grow}
 
 ---
 
-![](http://localhost:2233/stars.jpg =1024x) {cover}
+![](http://localhost:2233/shower/nwjs-logo-text.svg =300x) {center}
+
+<div class="center">
+ <a href="http://nwjs.io">ссылка на сайт</a>
+</div>
+
+---
+
+<div style="height:120px"></div>
+
+![](http://localhost:2233/shower/electron-logo.svg =800x) {center}
+
+
+<div class="center">
+ <a href="http://electron.atom.io/">ссылка на сайт</a>
+</div>
+
+---
+
+![](http://localhost:2233/shower/stars.jpg =1024x) {cover}
 
 ----
 
-![](http://localhost:2233/nwjs-connect-web-api-and-native-api.svg =660x) {cover}
+![](http://localhost:2233/shower/nwjs-connect-web-api-and-native-api.svg =660x) {cover}
 
 ---
 
@@ -76,7 +100,7 @@
 ---
 
 ## [@ Roger Wang](https://twitter.com/wwr) {center}
-![](http://localhost:2233/roger-wang.jpg =300x) {center}
+![](http://localhost:2233/shower/roger-wang.jpg =300x) {center}
 <br>
  2011 - Начало проекта Node-webkit {center}
 
@@ -84,18 +108,20 @@
 
 ## Node? WebKit?
  
-1. В апреле 2013-го Chromium, а вместе с ним и проект node-webkit  [переехал  на новый движок Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html) (форк Webkit-а) {next}
-2. С января 2015-го проект [начал использовать io.js](https://groups.google.com/forum/#!msg/nwjs-general/V1FhvfaFIzQ/720xKVd0jNkJ)  вместо node.js. {next}
-
-![](http://localhost:2233/crossed-node-webkit.svg =800x) {center next}
+1. В апреле 2013-го Chromium, а вместе с ним и проект node-webkit <br> [переехал  на новый движок Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)<br>(форк Webkit-а) {next}
+2. С января 2015-го проект <br>[начал использовать io.js](https://groups.google.com/forum/#!msg/nwjs-general/V1FhvfaFIzQ/720xKVd0jNkJ)<br>вместо node.js.  {next}
 
 ---
 
-![](http://localhost:2233/nwjs-logo-text.svg =400x) {cover}
+![](http://localhost:2233/shower/crossed-node-webkit.svg =800x) {place center}
 
 ---
 
-![](http://localhost:2233/intel-gnor-logos.svg =800x) {cover}
+![](http://localhost:2233/shower/nwjs-logo-text.svg =400x) {cover}
+
+---
+
+![](http://localhost:2233/shower/intel-gnor-logos.svg =800x) {cover}
 
 ---
 
@@ -104,40 +130,41 @@
 ----
 
 ## Десктопные приложения {center}
-![](http://localhost:2233/crossplatform-app.png =800x) {center}
+![](http://localhost:2233/shower/crossplatform-app.png =800x) {center}
 
 ---
 
-![](http://localhost:2233/iojs-and-chromium-logo.png =800x) {cover}
+![](http://localhost:2233/shower/iojs-and-chromium-logo.png =800x) {cover}
 
 ---
+
 ## Почему V8 называется V8?{center}
 
-![](http://localhost:2233/v8.gif =500x) {center next}
+![](http://localhost:2233/shower/v8.gif =500x) {center next}
 
 ---
 
-![](http://localhost:2233/arionette1.jpg =1050x) {cover}
+![](http://localhost:2233/shower/arionette1.jpg =1050x) {cover}
 
 ---
 
 ## 1902 {shout  grow white shadow}
-![](http://localhost:2233/arionette2.jpg =1050x) {cover}
+![](http://localhost:2233/shower/arionette2.jpg =1050x) {cover}
 
 ---
 
 ## 2015 {shout  grow white shadow}
-![](http://localhost:2233/camaro.jpeg =1050x) {cover}
+![](http://localhost:2233/shower/camaro.jpeg =1050x) {cover}
 
 ---
 
-![](http://localhost:2233/iojs-and-chromium-logo.png =800x) {cover}
+![](http://localhost:2233/shower/iojs-and-chromium-logo.png =800x) {cover}
 
 ---
 
 ## Единый контекст {center}
 
-![](http://localhost:2233/iojs-and-chromium-logo.png =200x) {center}
+![](http://localhost:2233/shower/iojs-and-chromium-logo.png =200x) {center}
 
 ```js
     var fs = require('fs');
@@ -151,20 +178,22 @@
 
 ## Как они это сделали? {center}
 
-![](http://localhost:2233/alive.gif =500x) {center}
+![](http://localhost:2233/shower/alive.gif =500x) {center}
 
 ---
 
 ## Как они это сделали? {center}
+<br>
+1. Единый event loop
+2. Единый контекст
 
-1. Main Loop Integration
-2. Context bridging
+<br>
 
 [Здесь можно почитать подрбнее](https://github.com/nwjs/nw.js/wiki/How-node.js-is-integrated-with-chromium) {center}
 
 ---
 
-## Начинаем погружение {shout grow}
+## Начинаем погружение! {shout grow}
 
 ---
 
@@ -172,7 +201,7 @@
 
 ---
 
-![](http://localhost:2233/project-structure-nwjs.svg =900x) {cover}
+![](http://localhost:2233/shower/project-structure-nwjs.svg =950x) {cover}
 
 ---
 
@@ -199,48 +228,102 @@
 ... добавим немного CSS и запустим 
 
 <div style="background:black; color:white; padding:20px">
-    nw app
+    $ nw app
 </div>
 
 ---
 
-![](http://localhost:2233/nwjs-window-frame-toolbar.png =600x) {place center}
+![](http://localhost:2233/shower/nwjs-window-frame-toolbar.png =500x) {place center}
 
 ---
+## package.json {center}
+
 ```js
-"toolbar": false
+    ...
+    "window": {
+      "toolbar": false
+    }
+    ...
 ````
-![](http://localhost:2233/nwjs-window-frame.png =560x) {place right}
 
 ---
 
+![](http://localhost:2233/shower/nwjs-window-frame.png =540x) {cover}
+
+---
+
+## package.json {center}
+
+
+    
 ```js
-"toolbar": false,
-"frame": false
+    ...
+    "window": {
+      "toolbar": false,
+      "frame": false
+    }
+    ...
 ````
-![](http://localhost:2233/nwjs-window.png =560x) {place right}
+
+---
+
+![](http://localhost:2233/shower/nwjs-window.png =560x) {cover}
 
 ----
 
+## package.json {center}
+
+
+    
 ```js
-"toolbar": false,
-"frame": false,
-"transparent": true
+    ...
+    "window": {
+      "toolbar": false,
+      "frame": false,
+      "transparent": true
+    }
+    ...
 ````
-![](http://localhost:2233/nwjs-window-transparent.png =560x) {place right}
 
 ---
 
-```js
-"kiosk": true
-````
-![](http://localhost:2233/nwjs-macbook-kiosk.png =660x) {center}
+![](http://localhost:2233/shower/nwjs-window-transparent.png =560x) {cover}
 
 ---
 
+## package.json {center}
+
+
+    
 ```js
-"show": false
-```
+    ...
+    "window": {
+       "kiosk": true
+    }
+    ...
+````
+
+---
+
+![](http://localhost:2233/shower/nwjs-macbook-kiosk.png =760x) {center}
+
+---
+
+## package.json {center}
+
+
+    
+```js
+    ...
+    "window": {
+       "show": false
+    }
+    ...
+````
+
+---
+
+
 
 ---
 ## Элементы интерфейса ОС {center}
@@ -248,7 +331,7 @@
 ```js
             var gui = require('nw.gui');
             gui.Window.get(); //окно
-            gui.Shell.openItem('test.txt'); //оболочка
+            gui.Shell(); //оболочка
             gui.Tray // трей
             gui.Menu // менюшки
             gui.Clipboard // буффер обмена
@@ -276,7 +359,7 @@ menu.append(new gui.MenuItem({
 
 ---
 
-![](http://localhost:2233/nwjs-window-cmenu.png =600x) {place center}
+![](http://localhost:2233/shower/nwjs-window-cmenu.png =560x) {place center}
 
 ---
 
@@ -286,7 +369,7 @@ menu.append(new gui.MenuItem({
 
 ```js
 var menubar = new gui.Menu({ type: 'menubar'});
-// Под-меню
+// Подменю
 menubar.append(new gui.MenuItem({ label: 'Главное'}));
 menubar.append(new gui.MenuItem({ label: 'О нас',   
   submenu: menu
@@ -297,11 +380,11 @@ gui.Window.get().menu = menubar;
 
 ---
 
-![](http://localhost:2233/nwjs-window-menubar.png =500x) {place center}
+![](http://localhost:2233/shower/nwjs-window-menubar.png =740x) {place top center}
 
 ---
 
-## Трей  {shout grow}
+## Трей (менюбар)  {shout grow}
 
 ---
 
@@ -318,7 +401,40 @@ tray.menu = menu;
 
 ---
 
-![](http://localhost:2233/nwjs-window-tray.png =600x) {place center}
+![](http://localhost:2233/shower/nwjs-window-tray.png =760x) {place top center}
+
+---
+
+## Сочетания<br>клавиш  {shout grow}
+
+---
+
+```js
+
+var shortcut = new gui.Shortcut({
+  key : "Ctrl+Shift+A",
+  active : function() {...},
+  failed : function(msg) {...}
+});
+// регистрируем сочетание клавиш в системе
+gui.App.registerGlobalHotKey(shortcut);
+```
+
+---
+
+## Буффер<br>обмена  {shout grow}
+
+---
+
+```js
+var clipboard = gui.Clipboard.get();
+// получить значение
+var text = clipboard.get('text');
+// установить значение
+clipboard.set('Привет', 'text');
+// очистить буффер
+clipboard.clear();
+```
 
 ---
 
@@ -326,18 +442,19 @@ tray.menu = menu;
 
 ---
 
-## App.dataPath
+## Локальные ресурсы приложения {center}
+## [App.dataPath](https://github.com/nwjs/nw.js/wiki/App) {center}
 
  - **Windows**    `%LOCALAPPDATA%/<name>`  
  - **Linux**  `~/.config/<name>`  
  - **OSX**  `~/Library/Application Support/<name>`  
 
-где `<name>` - это поле, заданное в package.json
+где `<name>` - это поле, заданное в package.json {center}
 
 
 ---
 
-## Базы данных и хранилища
+## Базы данных и хранилища {center}
 
 - Web SQL Database
 - IndexedDB
@@ -346,52 +463,79 @@ tray.menu = menu;
 
 ---
 
-## Дебаггинг {shout grow}
+## Отладка {shout grow}
 
 ---
 
-![](http://localhost:2233/nwjs-window-debugger.png =600x) {center}
+![](http://localhost:2233/shower/nwjs-window-debugger.png =600x) {center}
 
-## или  {center}
+<div style="background:black; color:white; padding:20px">
+$ nw --remote-debugging-port=1234 app
+</div>
+<br>
 
-              nw --remote-debugging-port=1234 app
-                          
-http://localhost:1234 {center}
+## http://localhost:1234 {center}
 
 ---
 
-## [Livereload nw.js](https://github.com/nwjs/nw.js/wiki/Livereload-nw.js-on-changes)   {shout grow}
+## [Livereload](https://github.com/nwjs/nw.js/wiki/Livereload-nw.js-on-changes)   {shout grow}
 
 ----
 
-## Сборка {shout grow}
+## [Сборка](https://github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-apps) {shout grow}
 
 ---
 
-[github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-apps](https://github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-apps)  {center}
-
-![](http://localhost:2233/how-to-build-nwjs.gif =800x) {center}
+![](http://localhost:2233/shower/how-to-build-nwjs.gif =900x) {cover}
 
 ---
 
-## node-webkit-builder
-     npm i -g node-webkit-builder
-    
-     nwbuild ./
-     
-     nwbuild ./ -p win32,win64,osx32,osx64,linux32,linux64
+![](http://localhost:2233/shower/no.gif =1050x) {cover}
 
 ---
 
-![](http://localhost:2233/osx-nwjs.png =400x) {center}
+## [node-webkit-builder](https://github.com/mllrsohn/node-webkit-builder) {center}
+
+<div style="background:black; color:white; padding:20px">
+    $   npm i -g node-webkit-builder
+</div>
+<br>
+<div style="background:black; color:white; padding:20px">
+    $  nwbuild ./
+</div>
+<br>
+<div style="background:black; color:white; padding:20px">
+    $  nwbuild ./ -p win32,win64,osx32,osx64,linux32,linux64
+</div>
 
 ---
 
-![](http://localhost:2233/windows-nwjs.png =400x) {center}
+![](http://localhost:2233/shower/osx-nwjs.png  =1024x) {place center}
 
 ---
 
-![](http://localhost:2233/ubuntu-nwjs.png =500x) {center}
+![](http://localhost:2233/shower/windows-nwjs.png =1024x) {place center}
+
+---
+
+![](http://localhost:2233/shower/ubuntu-nwjs.png  =1024x) {place center}
+
+---
+
+![](http://localhost:2233/shower/vs.gif  =1024x) {cover}
+## nw.js vs Electron {shout white shadow}
+
+---
+
+## Отличия {center}
+
+1) Точка входа (html vs js)
+2) Разный принцип построения билдов.
+3) Измененный vs оригинальный Хромиум
+4) Контекст
+
+[Подробнее с точки зрения разработчиков Electron](https://github.com/atom/electron/blob/master/docs/development/atom-shell-vs-node-webkit.md)  {center}
+
 
 ---
 
@@ -399,37 +543,36 @@ http://localhost:1234 {center}
 
 ---
 
-![](http://localhost:2233/popcorntime.gif =1000x) {cover}
+![](http://localhost:2233/shower/popcorntime.gif =1000x) {cover}
 
 ---
 
-![](http://localhost:2233/mong-management-studio.png =1000x) {cover}
+![](http://localhost:2233/shower/mong-management-studio.png =1000x) {cover}
 
 ---
 
-![](http://localhost:2233/lighttable.png =1000x) {cover}
+![](http://localhost:2233/shower/lighttable.png =1000x) {cover}
 
 ---
 
-![](http://localhost:2233/spreaker.png =1000x) {cover}
+![](http://localhost:2233/shower/spreaker.png =1000x) {cover}
 
 ---
 
-![](http://localhost:2233/sizechecker.png =600x) {cover}
+![](http://localhost:2233/shower/sizechecker.png =600x) {cover}
 
 ---
 
-![](http://localhost:2233/vokabbuilber.jpg =1000x) {cover}
+![](http://localhost:2233/shower/vokabbuilber.jpg =1000x) {cover}
 
 ---
 
-![](http://localhost:2233/sdalzamig.png =750x) {cover}
+![](http://localhost:2233/shower/sdalzamig.png =750x) {cover}
 
 ---
 
 ## ... и еще очень много приложений {center}
 ## [здесь](https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-nw.js) {shout}
-
 
 ---
 
@@ -437,173 +580,29 @@ http://localhost:1234 {center}
 
 ---
 
-## Вопросы {shout grow}
+## Почему  nw.js и веб-технологии </br> для десктопных приложений? {center}
 
-----
-
-## Express? {shout grow}
-
------
-
-## fake frame
-
-
-## Almost all GFM syntax
-
-**bold text**  
-*italic text*  
-==marked text==  
-~~crossed text~~  
-Subscript: H~2~0  
-Superscriipt: E=mc^2^  
-
-...
-
-----
-
- ## And full power of [Shower](http://shwr.me) {shout}
-
-----
-
-## Growing Shout {shout grow}
-  ----
-
- ## Shrinking Shout {shout shrink}
-
-----
-
-##  ... or any custom css class
-
-hello {red center}
-
-----
-
- ## Lists {shout grow}
-  ---
-
-## Unordered list
-
-- sample
-- unnoredered
-- list
-   - with nested
-   - items
-- **any** *simple* ***formatting***, [link]('link')
-- and 
-
-----
-
-## Ordered list
-
-1. sample
-2. oredered
-3. list
-   1. with 
-   2. nested
-   3. items
-4. and **any** *simple* ***formatting*** or [link]('link')
-
-----
-
-~~this~~
-
-----
-
-## List items can also appear on click
-
-1. sample {next}
-2. oredered {next}
-3. list {next}
-4. surprise! fuck you  fuck you  {next}
-
-------
-
- ## Images {shout grow}
-
-----
-
- ## Fullsize {shout white shadow}
- ![](http://www.pageresource.com/wallpapers/wallpaper/bodog-ring-girls.jpg) {cover}
-
-----
-
- ## ...or inline {center}
- ![](http://33.media.tumblr.com/tumblr_lta5dmff8M1r4ghkoo1_500.gif) {center}
-
----
-
-## .. or, you can even define width
-
- ![cat](http://www.online-image-editor.com//styles/2014/images/example_image.png =400x)
- ![cat](http://www.online-image-editor.com//styles/2014/images/example_image.png =250x)
- ![cat](http://www.online-image-editor.com//styles/2014/images/example_image.png =150x)
-
-----
-
-## Columns
-
-Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch American Apparel letterpress. Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party plaid American Apparel four loko quinoa. Echo Park 8-bit sustainable umami deep v Kickstarter. {double}
-
----
-
-## Tables
- 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:--------------------:| -------:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered              |   $12  |
-| zebra stripes | are neat           |    $1   |
-
------
-
-## hello
-
-sdlkfhgkjshdflkg
-
-1. asakjshdfijs{next}
-2. asffgsfdgsdfg{next}
-3. sdfgsdfgsdfg{next}
- 
--------
-
-## Quotes
-
->Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.
-
->Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.
-
-**Yours Truly**
-
----
-
-## Code with marks
-
-    var fruits = ["Banana", "Orange", "Apple", "Mango"];
-    document.getElementById("demo").innerHTML = fruits;
-
-    function myFunction() {
-        fruits.unshift("Lemon");
-        document.getElementById("demo").innerHTML = fruits;
-    }
+1) Легкая кроссплатформенность (Mac, Linux, Windows, ...). {next}
+2) Работает достаточно быстро. {next}
+3) Нарастающий тренд ;) {next}
+4) Просто писать прилодения для себя {next}
+5) Дешево во всех отношениях! {next}
 
 
 ---
 
-## Highlighted code
+## Вопросы? {white shadow}
 
-```js
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("demo").innerHTML = fruits;
-
-function myFunction() {
-    fruits.unshift("Lemon");
-    document.getElementById("demo").innerHTML = fruits;
-}
-```
+![](http://localhost:2233/shower/questions.gif =1150x) {cover}
 
 ---
+## Блог  [html5.by](http://html5.by) 
+## Твиттер  [@html5by](http://twitter.com/html5by) и [@nedudi](http://twitter.com/nedudi) 
+## Статья [html5.by/blog/nwjs](http://html5.by/blog/nwjs) 
+## Слайды [html5.by/slides/nwjs](http://html5.by/slides/nwjs)  
+## Группа ВК [vk.com/html5by](http://vk.com/html5by) 
+## Группа FB [facebook.com/html5by](http://facebook.com/html5by) 
 
-## Contacts
+----
 
-
-  [1]: https://github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-apps "https://github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-apps"
+![](http://localhost:2233/shower/nobody-perfect.gif  =760x) {place center}

@@ -7,6 +7,27 @@ var fs = require('fs');
 //   document.getElementById('log').innerHTML = fs.readFileSync(path, {encoding:'utf8'});
 // });
 
+
+
+// var shortcut = new gui.Shortcut({
+//   key : "Ctrl+Shift+L",
+//   active : function() {
+//     console.log('Нажато сочетание клавиш', this.key)
+//   },
+//   failed : function(msg) {
+//     // невозможно зарегистрировать такое сочетание клавиш
+//     // возможно, оно уже занято
+//     console.log(msg);
+//   }
+// });
+
+// // регистрируем сочетание клавиш в системе
+// gui.App.registerGlobalHotKey(shortcut);
+
+// // отписываемся от сочетания клавиш в системе
+// gui.App.unregisterGlobalHotKey(shortcut);
+
+
 //---------------------------------------
 
 var getDummyMenu = function () {
